@@ -4,9 +4,9 @@
 In this module we'll be using SQLite and SQLAlchemy to run analytics on a weather data set for the island of Oahu. The purpose of our analysis is present weather analysis to our investor, W.Avy, for Oahu where we hope to open up a Surf & Shake shop. We will be using Flask to present our final analysis on the web in real-time to our potential investors.
 
 ### Resources
-- Data Sources: hawaii.sqlite
-- Result Files: climate_analysis.ipynb, SurfsUp_Challenge.ipynb, app.py
-- Image Files: december_temp.png, june_temp.png, compare.png
+- Data Sources: [hawaii.sqlite](hawaii.sqlite)
+- Result Files: [climate_analysis.ipynb](climate_analysis.ipynb), [SurfsUp_Challenge.ipynb](SurfsUp_Challenge.ipynb), [app.py](app.py)
+- Image Files: [december_temp.png](december_temp.png), [june_temp.png](june_temp.png), [compare.png](compare.png)
 - Software: Python 3.7.6, Anaconda 4.8.3, Jupyter Notebook 6.0.3, SQLite, SQLAlchemy
 
 ## Results
