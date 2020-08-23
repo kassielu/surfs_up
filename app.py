@@ -37,17 +37,16 @@ app = Flask(__name__)
 #################################################
 # Create Flask Routes
 @app.route('/')
-
 def welcome():
-    return(
-    '''
-    Welcome to the Climate Analysis API!
-    Available Routes:
-    /api/v1.0/precipitation
-    /api/v1.0/stations
-    /api/v1.0/tobs
-    /api/v1.0/temp/start/end
-    ''')
+    """Welcome to the Climate Analysis API!"""
+    return (
+        f"Welcome to the Climate Analysis API!<br/>"
+        f"Available Routes:<br/>"
+        f"/api/v1.0/precipitation<br/>"
+        f"/api/v1.0/stations<br/>"
+        f"/api/v1.0/tobs<br/>"
+        f"/api/v1.0/temp/start/end"
+    )
 
 @app.route("/api/v1.0/precipitation")
 def precipitation():
